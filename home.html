@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- atribute- lang(language): google, naver 등의 검색 사이트에서 영어로 검색할때 한국어로 검색할때 일본어로 검색할때 등등 판단하는데 도움을 줌 
+사이트가 어떤 언어를 사용하는지 -->
+<html lang="kr">
+  <!-- invisible tag -->
+  <head>
+    <!-- link -->
+    <!-- attribute- rel(relationship), sizes, href -->
+    <!-- <link
+      rel="shortcut icon"
+      sizes="16x16 32x32 64x64"
+      href="https://nomadcoders.co/m.png" /> -->
+    <link
+      rel="shortcut icon"
+      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico" />
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+      h1 {
+        color: blueviolet;
+      }
+    </style>
+
+    <title>Home - Bruine website.</title>
+    <!-- meta -->
+    <!-- attribute- content, name, charset -->
+    <meta charset="utf-8" />
+    <meta name="description" content="This is Bruine website" />
+  </head>
+  <!-- visible tag -->
+  <body>
+    <!-- Head -->
+    <h1>Hello this is my website!</h1>
+    <h2>Hello this is my website!</h2>
+    <h3>Hello this is my website!</h3>
+    <h4>Hello this is my website!</h4>
+    <h5>Hello this is my website!</h5>
+    <h6>Hello this is my website!</h6>
+
+    <!-- ordered lists -->
+    <ol>
+      <!-- lists -->
+      <li>beer</li>
+      <li>kimchi</li>
+      <li>meat</li>
+      <li>milk</li>
+    </ol>
+
+    <!-- unordered lists -->
+    <ul>
+      <li>Eol</li>
+      <li>Bruine</li>
+      <li>Flue</li>
+    </ul>
+
+    <!-- a(anchor) -->
+    <!-- attribute- href(Hypertext Reference or HTTP Reference), target[default: _self, _blank] -->
+    <a href="https://www.google.com" target="_blank">Go to google.com</a>
+
+    <!-- self-closing tag : img(image) -->
+    <!-- atribute- src(source) -->
+    <!-- src : can copy image address or put image file in the same forder -->
+    <!-- path notation -->
+    <img src="image/theme_toolbar.jpeg" />
+    <p>lalalalalalalalala</p>
+    <pre>lalalalalalalalala!</pre>
+    <p>My name is <abbr title="Yuito Bruine Lim">NSA</abbr></p>
+    <cite>Hello!</cite>
+    <code>Hello!</code>
+    <p>I like to live in <mark>Japan</mark></p>
+    <p>I like to live in <strong>Japan</strong></p>
+    <p>I like to live in <sub>Japan</sub></p>
+    <p>I like to live in <sup>Japan</sup></p>
+    <audio
+      controls="enabled"
+      autoplay="enabled"
+      src="Audio/Ado - 行方知れず.mp3"></audio>
+    <form>
+      <label for="profile">Profile Photo</label>
+      <input id="profile" type="file" accept=".jpg" />
+      <input type="color" />
+
+      <label for="first-name">First Name</label>
+      <input id="first-name" required placeholder="Name" type="text" />
+
+      <input required placeholder="Middle Name" disabled type="text" />
+      <input required placeholder="Last Name" type="text" />
+      <input required placeholder="Username" minlength="4" type="text" />
+      <!-- <label for="Password"
+        >Enter a password that is at least 10 letters long!!!</label
+      > -->
+      <input
+        required
+        placeholder="Password"
+        minlength="10"
+        type="password"
+        id="password" />
+      <input type="submit" value="Create Account" />
+    </form>
+    <form>
+      <div>
+        <label for="website">Website</label>
+        <input id="website" required placeholder="URL" type="url" />
+        <label for="e-mail">E-Maile</label>
+        <input id="e-mail" required placeholder="Email Adrress" type="email" />
+      </div>
+      <div>
+        <input
+          id="number"
+          required
+          placeholder="number of account"
+          type="number" />
+        <input id="date" required placeholder="date" type="date" />
+        <input type="submit" value="Email" />
+        <!-- <input id="image" required placeholder="img" type="image" /> -->
+      </div>
+    </form>
+    <form>
+      <label for="range">Range</label>
+      <input id="range" required placeholder="Range" type="range" />
+    </form>
+    <dialog open>
+      <p>Greetings, one and all!</p>
+    </dialog>
+    <!-- semantic Tag - header, main, footer, ect...: 문서를 보기만해도 그 의미를 짐작할 수 있는 것 -->
+    <!-- header -->
+    <!-- non-semantic Tag - div, span, ect...: 의미가 없는 태그 -->
+    <!-- div(division) -->
+    <!-- footer: 꼬릿말을 위한 태그 -->
+    <!-- span: 짧은 문장 -->
+    <header>
+      <h1>The Bruine Times</h1>
+    </header>
+    <main>
+      <span>hello!</span>
+    </main>
+    <footer>&copy; 2022 Y.B.L</footer>
+  </body>
+</html>
+
+<!-- Basic instructure -->
+<!-- <tagname attrname="attrvalue">contents</tagname> -->
